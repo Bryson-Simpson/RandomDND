@@ -1,12 +1,18 @@
-## C++ Program to generate a Random DND Character
+# 🎲 C++ Program to Generate a Random D&D Character
 
-This program uses class to generate a random character in DND.
-THe way it does this is by using random number generators to randomly select abilities, feats, skills, background. and more.
+This C++ program generates a random Dungeons & Dragons (D&D) character using basic class structures and random number generation. It provides a foundation for players or Dungeon Masters (DMs) to quickly roll up a character with randomized stats, abilities, and more.
 
-## Usage
+## ✨ Features
 
-This is to be used by players or DMs to make characters.
+- Randomized ability score generation
+- Expandable design for feats, skills, backgrounds, and other character traits
+- Uses C++ `rand()` or can be upgraded to use `<random>` for more reliable randomness
 
-## Updates to come to this code
+## 🧠 How It Works
 
-The ability for DMs to create their enemies for players to fight with specific information or to choose them to be randomizied.
+The program utilizes a class (`RandomNumAbilities`) to simulate D&D-style dice rolls. For example, to generate a random ability score between 1 and 20:
+
+```cpp
+int rollAbility() {
+    return rand() % 20 + 1;
+}
