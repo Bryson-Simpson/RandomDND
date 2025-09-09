@@ -1,0 +1,12 @@
+# C++ Program to generate a Random DND Character
+
+This program uses class to generate a random character in DND.
+THe way it does this is by using random number generators to randomly select abilities, feats, skills, background. and more.
+
+# Usage
+
+This is to be used by players or DMs to make characters.
+
+# Updates to come to this code
+
+The ability for DMs to create their enemies for players to fight with specific information or to choose them to be randomizied.
