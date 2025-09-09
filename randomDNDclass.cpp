@@ -37,8 +37,8 @@ public:
 class RandomClass {
 public:
     string getRandomClass() {
-        string classes[] = {"Fighter", "Wizard", "Rogue", "Cleric", "Ranger", "Paladin"};
-        int index = rand() % 6;
+        string classes[] = {"Fighter", "Wizard", "Rogue", "Cleric", "Ranger", "Paladin", "Artificer", "Barbarian", "Bard", "Druid", "Monk", "Sorcerer", "Warlock"};
+        int index = rand() % 13;
         return classes[index];
     }
 };
